@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Volkers Replacer",
     "version": "1.0",
-    "description": "Replaces #F5F7FA with #9db0cd on any website.",
+    "description": "Make kibana selection readable.",
     "permissions": ["activeTab", "scripting"],
     "background": {
       "service_worker": "background.js"
@@ -10,6 +10,7 @@
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
+        "css": ["styles.css"],
         "js": ["content.js"]
       }
     ]

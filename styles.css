@@ -1,0 +1,10 @@
+/* styles.css */
+.hover-effect {
+    background-color: #9db0cd !important;
+    color: #000 !important;
+}
+
+::selection {
+    background: #00bfb3;
+    color: #fff;
+}
