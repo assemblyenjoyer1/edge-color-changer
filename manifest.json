@@ -9,7 +9,7 @@
     },
     "content_scripts": [
       {
-        "matches": ["<all_urls>"],
+        "matches": ["https://kibana.logging.praxis.f2.eos.lcl/*"],
         "css": ["styles.css"],
         "js": ["content.js"]
       }
